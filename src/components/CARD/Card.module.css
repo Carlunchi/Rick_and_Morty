@@ -1,0 +1,93 @@
+.imagen{
+    display: flex;
+    width: 250px;
+    height: 230px;
+    border-radius: 50%;
+    margin:0px auto;
+   
+}
+
+.contenedor{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+    width:500px;
+    height: 500px;
+    border-radius: 5px;
+    align-content: center;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 10px;
+    float:left;
+    
+    
+    
+
+    
+   
+}
+
+.button{
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    top:2px; left: 1px;
+    margin-top: 1px;
+    background-color:rgba(242, 17, 197, 0.289)
+    
+} 
+
+.button:hover {
+    background-color: #750fe9; 
+    color: white;
+}
+
+.texts{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+
+}
+
+
+.favorite{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 35px;
+    height: 20px;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    font-size: 30px;
+    animation-name: btnFvKeys;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .favorite:hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  @keyframes btnFvKeys {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

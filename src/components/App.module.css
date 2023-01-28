@@ -1,0 +1,15 @@
+.home{
+        
+        background-image: url("../imagenes/812062.png");
+        background-attachment: fixed; 
+        /* para que no se me deforme la imagen de fondo */
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        min-width: 100vh;
+        background-repeat: repeat;
+        background-position: top;
+        background-size: cover; 
+        display: flex;
+        justify-content: center;
+}

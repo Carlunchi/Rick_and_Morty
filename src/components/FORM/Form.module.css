@@ -1,0 +1,118 @@
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    
+}
+
+.formulario{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid purple;
+    width: 1000px;
+    height: 1000px;
+    background: rgb(168, 139, 189);
+    background: linear-gradient(
+      0deg,
+      rgba(168, 139, 189, 0.9) 0%,
+      rgba(137, 43, 226, 0.9) 100%
+    );    
+    backdrop-filter: blur(2px);
+    margin-right: 900px;
+}
+
+
+.contenedor{
+    height: 100%;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-repeat: repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.username{
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: x-large;
+}
+
+.password{
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size: x-large;
+}
+
+
+
+.login{
+     background: #fff; /* color de fondo */
+    color: #b92dec; /* color de fuente */
+    border: 2px solid #be6ff0; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 5px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    margin-left: 100px;
+    width: 500px;
+    /* margin-bottom: 500px; */
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-right: 700px; */
+    margin-top: 100px;
+    justify-content: center;
+    font-weight:bold;
+    font-size: x-large;
+  }
+  .login:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .login::after {
+    content: "";
+    background: #bb2aefaf; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+  }
+  .login:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+  }
+
+
+
+
+  input{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    /* width: 300px; */
+    height:20px;
+    border:2px solid #b92dec;
+    text-align:justify;
+  }

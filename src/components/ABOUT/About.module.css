@@ -1,0 +1,46 @@
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 850px;
+    width: 250px;
+    height: 300px;
+}
+
+.about{
+    background-image: url("../../imagenes/planeta.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    color:wheat;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.subtitle{
+    color:white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p{
+    color:rgb(196, 233, 185);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p2{
+    color:rgb(213, 245, 203);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+
+}

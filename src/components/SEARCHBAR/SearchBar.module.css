@@ -1,0 +1,15 @@
+
+.SearchBar{
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 0.5em;
+}
+
+.botones{
+    display: flex;
+     gap: 0.5em;
+}

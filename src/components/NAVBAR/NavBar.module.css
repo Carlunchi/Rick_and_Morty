@@ -1,0 +1,104 @@
+.contenedor{
+  display: flex;
+  justify-content: center;
+  background-image: none;
+  width: 100%;
+  position: absolute;
+  margin-top: 15px;
+  
+  
+}
+
+
+.navbar{
+   background-color:none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 850px;
+}
+
+.about{
+   display: flex;
+   margin-left: 10px;
+   background-color:  rgba(245, 245, 245, 0.412);
+   backdrop-filter: blur(3px);
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold; 
+   font-size: 30px; 
+   color:#750fe9; 
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+.about:hover{
+   color:indigo
+}
+
+.home{
+  
+   display: flex;
+   /* margin-left: 10px; */
+   background-color:  rgba(245, 245, 245, 0.412);
+   backdrop-filter: blur(3px);
+   font-family: 'Courier New', Courier, monospace;
+   /* margin-right: 10px; */
+   font-weight: bold; 
+   font-size: 30px; 
+   color: #750fe9; 
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+.home:hover{
+   color:indigo
+}
+
+.logout{
+   display: flex;
+   /* margin-left: 10px; */
+   background-color:  rgba(245, 245, 245, 0.412);
+   backdrop-filter: blur(3px);
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold; 
+   font-size: 30px; 
+   color: #750fe9; 
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.logout:hover{
+   color:indigo
+}
+.botones{
+   display: flex;
+   gap:0.5em;
+   margin-top: -25px;
+}
+
+.searchBar{
+   display: flex;
+   margin-top: -20px;
+}
+
+
+.links{
+   text-decoration: none;
+}
+
+
+
+.favorite{
+   display: flex;
+   /* margin-left: 10px; */
+   background-color:  rgba(245, 245, 245, 0.412);
+   backdrop-filter: blur(3px);
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold; 
+   font-size: 30px; 
+   color: #750fe9; 
+   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.favorite:hover{
+   color:indigo
+}

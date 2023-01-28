@@ -1,0 +1,27 @@
+.contenedor{
+    display: flex;
+    margin-top: 100px;
+    flex-direction:column;
+}
+
+.links{
+    text-decoration: none;
+ }
+
+
+ .favorite{
+    display: flex;
+    /* margin-left: 10px; */
+    background-color:  rgba(245, 245, 245, 0.412);
+    backdrop-filter: blur(3px);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; 
+    font-size: 30px; 
+    color: #750fe9; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+ }
+ 
+ .favorite:hover{
+    color:indigo
+ }
+ 
